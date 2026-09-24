@@ -1,7 +1,9 @@
 {
   "kind": "shell",
   "version": "0.1.0",
-  "bloxsmith_compatibility": ["1.0.9"],
+  "bloxsmith_compatibility": [
+    "1.0.9"
+  ],
   "tested_with_bloxsmith": "1.0.9",
   "title": "Shell",
   "ports": {
@@ -37,5 +39,35 @@
     "active_worker": true,
     "centralized_executor": "generic",
     "centralized_dependency_mode": "all_inputs"
+  },
+  "ui_assets": {
+    "modal": [
+      {
+        "kind": "js",
+        "path": "assets/js/properties_mount.js"
+      },
+      {
+        "kind": "css",
+        "path": "assets/css/properties.css"
+      },
+      {
+        "kind": "js",
+        "path": "assets/js/properties.js"
+      }
+    ],
+    "inspector_panel": [
+      {
+        "kind": "js",
+        "path": "assets/js/properties_mount.js"
+      },
+      {
+        "kind": "css",
+        "path": "assets/css/properties.css"
+      },
+      {
+        "kind": "js",
+        "path": "assets/js/properties.js"
+      }
+    ]
   }
 }
