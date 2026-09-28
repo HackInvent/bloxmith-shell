@@ -10,9 +10,6 @@ Verified BloxSmith versions: **1.0.9** (bundled-block tests; see [test evidence]
 
 [![SHELL — Passes a value through for compatibility; it does not execute operating-system commands.](media/thumbnail.webp)](media/cover.png)
 
-*Concept illustration. [Artwork and generation prompt](media/README.md).*
-
-
 ## Role
 
 `shell` is a compatibility passthrough block. Despite its name, it does not execute operating-system commands.
